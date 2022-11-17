@@ -69,7 +69,7 @@
 ***********************************************************
 #### OPERATÖRLER
 
-1. Aritmetik Operatrler
+1. **Aritmetik Operatrler**
       let veri;
        const a=20;
        const b=10; 
@@ -86,7 +86,7 @@
 
  ****************************************************************
  
-2. Atama Operatörleri
+2. **Atama Operatörleri**
 
             veri = a;
               veri +=a;   //şöyle ki bu veri= veri+a demek
@@ -96,7 +96,7 @@
 
  ****************************************************************
 
-3. Karşılaştırma Operatörleri
+3. **Karşılaştırma Operatörleri**
 
       veri = a==b;   boolean false
           veri = b==c;   boolean false
@@ -108,7 +108,7 @@
                   veri= b<c    boolean false    
  ****************************************************************
 
-4. Mantıksal Operatörler
+4. **Mantıksal Operatörler**
 
       && (and)
         veri=(a>b) &&(a>c)  //true çıkar çünkü iki değer de doğrudur.
@@ -220,8 +220,8 @@ console.log(zaman.getFullYear()-birtday.getFullYear);
             
         veri=veri.slice(1,8); // 1 i almaz 8 i almaz arasındaki tüm hargleri alır.
           veri= veri.indexOf("t"); // t harfi kaçıncı indekste bulunmaktadır. Eğer ki içerisinde olmayan karakter varsa -1 sonucu çıkar
-            veri=veri.replace("BATU","Batuhan");
->veri de isim olarak Batu yazdım ama kodların içinde to upper case komutuyla ben Batuyu BATU ya çevirdim bundan dolayı BATU olarak yapmak durumunda kaldım.
+            veri=veri.replace("BATU","Batuhan"); // toUpperCase ile Batu->BATU oldu. O yüzden bu şekilde kullanıldı.
+
         veri=veri.length;
            veri=hobbies.split(' ');
 
