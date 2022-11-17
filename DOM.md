@@ -1,6 +1,6 @@
 # **BATUHAN AYGÜN JAVASCRIPT CHEAT SHEET VOL.4**
 
-## **DOM MANIPULATION**
+## **DOM MANIPULATION(Bu dosya dom.html dosyası ile bağlantılıdır. )** 
 
 ### Elementlerin Seçilmesi
 
