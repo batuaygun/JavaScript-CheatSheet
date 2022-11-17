@@ -1,5 +1,6 @@
-# Değişkenler(Variables)
-### Değişken tanımlama kuralları
+#                           **BATUHAN AYGÜN JAVASCRIPT CHEAT SHEET VOL.1**
+## Değişkenler(Variables)
+#### Değişken tanımlama kuralları
 
 
 1.değişken isimleri rakam ile başlayamaz. yas1 olur 1yas olmaz
@@ -10,7 +11,7 @@
 
 4. Değişken isimlerinde türkçe karakter kullanılmamalıdır.
 
-#### Değişken Türleri ikiye ayrılır
+##### Değişken Türleri ikiye ayrılır
 
     1. **Primitive Types**
           String 
@@ -66,7 +67,7 @@
 >function çıktısı olur.
 
 ***********************************************************
-### OPERATÖRLER
+#### OPERATÖRLER
 
 1. Aritmetik Operatrler
       let veri;
@@ -123,7 +124,7 @@
 
  ****************************************************************
 
-### DATE OBJECT
+#### DATE OBJECT
     
 
         let zaman= new Date();
@@ -150,7 +151,7 @@ console.log(zaman.getFullYear()-birtday.getFullYear);
 
  ****************************************************************
 
-### Numbers
+#### Numbers
 
         let veri;
 
@@ -194,7 +195,7 @@ console.log(zaman.getFullYear()-birtday.getFullYear);
  
 
 
-### STRINGS
+#### STRINGS
 
 
         const firstname="Batu";
