@@ -251,3 +251,61 @@
               veri=window.location.protocol;
                 window.location.href="http://batuhanaygun.com";
                   console.log(veri);
+
+## **Scope(KAPSAM)**
+
+ >Oluşturduğumuz bir değişkenin  nerelerde var olduğunu belirtiyor.
+ >Mesela bir fonksiyon içerisinde oluşturulan bir değişken ya da bir koşul bloğunun içerisinde oluşturulan bir değişken
+ >bu bloğun dışında da kullanılabiliryor mu? Bunu oluşturan kavram Scope kavramı
+ >3 e ayrılır
+ >Global Scope, Function Scope, Block Scope
+
+
+ >Global Scope(oluşturulan tüm değişkenler global scopetur aslında unless function and block scope)
+
+
+ 1. Function Scope
+ 
+        function a(){
+          }
+
+ 2. Block Scope
+
+         if(true){
+        }
+
+         var veri1=5; > Global Scope
+     
+         let veri2= 10; 
+           const veri3=15;
+
+         function fonskiyon() { 
+       
+       > Function Scope Global Scope'dan önemlidir. 
+       >Yani FS içerisinden çağırdımız veri GS ta olsa dahi FS te olan bilgi karşımıza çıkar
+       
+        var veri1= 30; 
+         let veri2=40;
+          const veri3=50;
+            console.log(veri1,veri2,veri3);  
+             }
+              fonskiyon();
+                 console.log(veri1,veri2,veri3);
+
+
+     if(true){ 
+ >block içinde var komutunu kullanırsak dışında da kullanabiliriz. ama let ya da const kullanılamıyor.
+ >let ve const sadece block içinde kullanılmakta, block dışında kullanmak istiyorsak var almak gerekiyor.
+ 
+         var a=10;
+          let b=20;
+           const c=30;
+             } 
+
+ >Ayrıca global olarak tanımlanmış değerleri Block içerisine koyarsak block içine konmuş değerleri görürüz. 
+ >Ama block dışında gösterirsek eski değerleri neyse onları görürüz. 
+ >var değişken yapısı buna dahil değildir. Block içerisinde değişmesini istemiyorsak let const kullanılmalıdır.
+ 
+       console.log(a);
+          console.log(b);
+          console.log(c);
