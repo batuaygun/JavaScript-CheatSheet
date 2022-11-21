@@ -16,7 +16,7 @@ hem kendim hem de ilgilenen kişiler için kullanışlı olabilecek bir çalış
 8. Scope
 9. Dom
 10. OOP
-11. Cosntructor
+11. Constructor
 
 
 Bu içerik JavaScript öğrenmeye çalışan ve öğrendiklerini paylaşmak isteyen biri tarafından hazırlanmıştır.
